@@ -8,8 +8,8 @@ module.exports = {};
 const app = express();
 
 app.use(
-  express.static("src/client", {
-    index: "/views/index.html",
+  express.static("dist", {
+    index: "index.html",
   })
 );
 
